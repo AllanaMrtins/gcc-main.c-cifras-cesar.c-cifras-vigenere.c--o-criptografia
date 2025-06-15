@@ -30,5 +30,5 @@ void cifraCesar() {
             printf("%c", c);
         }
     }
-    printf("\n");
+    printf("\n ");
 }
