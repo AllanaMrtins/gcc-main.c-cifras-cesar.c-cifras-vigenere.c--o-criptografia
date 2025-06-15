@@ -14,7 +14,7 @@ void cifraVigenere() {
     printf("Digite a chave: ");
     fgets(chave, sizeof(chave), stdin);
     int lenC = strlen(chave);
-    if (chave[lenC - 1] == '\n') chave[lenC - 1] = '\0';
+    if (chave[lenC - 1] ==  '\n') chave[lenC - 1] = '\0';
 
     printf("Texto criptografado: ");
     for (i = 0; texto[i] != '\0'; i++) {
